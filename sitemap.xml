@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/post/OneWayLinkedList.html</loc>
+    <loc>http://blog.github.io/post/OneWayLinkedList.html</loc>
     
     <lastmod>2020-11-17</lastmod>
     
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/about/index.html</loc>
+    <loc>http://blog.github.io/about/index.html</loc>
     
     <lastmod>2020-11-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/post/datastructure.html</loc>
+    <loc>http://blog.github.io/post/datastructure.html</loc>
     
     <lastmod>2020-11-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/post/blogcreate.html</loc>
+    <loc>http://blog.github.io/post/blogcreate.html</loc>
     
     <lastmod>2020-11-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/tags/index.html</loc>
+    <loc>http://blog.github.io/tags/index.html</loc>
     
     <lastmod>2020-11-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/link/index.html</loc>
+    <loc>http://blog.github.io/link/index.html</loc>
     
     <lastmod>2020-11-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/categories/index.html</loc>
+    <loc>http://blog.github.io/categories/index.html</loc>
     
     <lastmod>2020-11-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/post/dynamicarray.html</loc>
+    <loc>http://blog.github.io/post/dynamicarray.html</loc>
     
     <lastmod>2020-11-15</lastmod>
     
@@ -59,37 +59,37 @@
   
 
   <url>
-    <loc>https://i-fire.gitee.io/fire</loc>
-    <lastmod>2020-11-17</lastmod>
+    <loc>http://blog.github.io/</loc>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/tags/%E5%8D%95%E5%90%91%E9%93%BE%E8%A1%A8/</loc>
-    <lastmod>2020-11-17</lastmod>
+    <loc>http://blog.github.io/tags/%E5%8D%95%E5%90%91%E9%93%BE%E8%A1%A8/</loc>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
-    <lastmod>2020-11-17</lastmod>
+    <loc>http://blog.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2020-11-17</lastmod>
+    <loc>http://blog.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/tags/%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84/</loc>
-    <lastmod>2020-11-17</lastmod>
+    <loc>http://blog.github.io/tags/%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84/</loc>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -97,15 +97,15 @@
 
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
-    <lastmod>2020-11-17</lastmod>
+    <loc>http://blog.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://i-fire.gitee.io/fire/categories/%E5%A4%A7%E4%BA%8B%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2020-11-17</lastmod>
+    <loc>http://blog.github.io/categories/%E5%A4%A7%E4%BA%8B%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
