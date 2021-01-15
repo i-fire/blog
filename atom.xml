@@ -6,7 +6,7 @@
   <link href="https://i-fire.top/atom.xml" rel="self"/>
   
   <link href="https://i-fire.top/"/>
-  <updated>2020-12-26T10:51:22.720Z</updated>
+  <updated>2021-01-15T00:55:18.716Z</updated>
   <id>https://i-fire.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>警醒</title>
+    <link href="https://i-fire.top/post/warn.html"/>
+    <id>https://i-fire.top/post/warn.html</id>
+    <published>2021-01-15T00:47:12.000Z</published>
+    <updated>2021-01-15T00:55:18.716Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="警戒"><a href="#警戒" class="headerlink" title="警戒"></a>警戒</h1><p>今天是2021年1月15号，谨以此文章记录一年前的今天我在某重大战役中的胜利</p><p><strong>凡事必须三思而后行</strong></p>]]></content>
+    
+    
+    <summary type="html">警戒</summary>
+    
+    
+    
+    <category term="大事记" scheme="https://i-fire.top/categories/%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
+    
+    
+    <category term="生活" scheme="https://i-fire.top/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>选择排序 SelectSort</title>
