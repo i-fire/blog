@@ -6,7 +6,7 @@
   <link href="https://i-fire.top/atom.xml" rel="self"/>
   
   <link href="https://i-fire.top/"/>
-  <updated>2021-01-15T00:55:18.716Z</updated>
+  <updated>2021-01-17T03:06:17.754Z</updated>
   <id>https://i-fire.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我爱签到网使用教程</title>
+    <link href="https://i-fire.top/post/52sign.html"/>
+    <id>https://i-fire.top/post/52sign.html</id>
+    <published>2021-01-17T02:43:30.000Z</published>
+    <updated>2021-01-17T03:06:17.754Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="我爱签到网使用教程"><a href="#我爱签到网使用教程" class="headerlink" title="我爱签到网使用教程"></a>我爱签到网使用教程</h1><h3 id="平台介绍"><a href="#平台介绍" class="headerlink" title="平台介绍"></a>平台介绍</h3><p>一个集成了各大平台打卡签到功能的系统，基于springboot和layui开发，大部分功能完全免费</p><h3 id="目前已经有的功能"><a href="#目前已经有的功能" class="headerlink" title="目前已经有的功能"></a>目前已经有的功能</h3><ul><li>学习通签到<ul><li>普通签到</li><li>位置签到</li><li>手势签到</li></ul></li><li>网易云打卡<ul><li>云贝打卡</li><li>每日听歌300首</li></ul></li></ul><p><strong>PS：只要保持各大平台的密码正确，完全可以实现自动化签到，彻底解放双手</strong></p><p><strong>PS：后续会添加更多自动化功能</strong></p><h3 id="使用步骤"><a href="#使用步骤" class="headerlink" title="使用步骤"></a>使用步骤</h3><ul><li><p>打卡我爱签到网网址：<a href="https://52sign.top/">https://52sign.top/</a></p></li><li><p>点击注册用户，点击这两处都行</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210117100006.png"></p></li><li><p>按照要求输入相应的信息即可，然后点击注册</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210117100213.png"></p></li><li><p>注册成功后会收到一封激活邮箱的邮件，只有先激活邮箱，才能登陆网站</p></li><li><p>然后登陆到网站里面，看到当前页面说明注册成功</p><p><img src="C:\Users\15061\AppData\Roaming\Typora\typora-user-images\image-20210117102202625.png"></p></li><li><p>登陆成功后即可开始使用（以学习通签到为例）</p><ul><li><p>首先需要添加一个学习通账号</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210117102605.png"></p></li></ul></li><li><p>添加完毕后获取学习通账户的所有课程</p></li></ul><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210117102839.png"></p><p>选择刚才添加的学习通账号，然后获取到账号中的所有的课程后</p><ul><li><p>为课程添加签到任务</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210117103156.png"></p></li><li><p>查看签到所有的签到任务</p><p><img src="C:\Users\15061\AppData\Roaming\Typora\typora-user-images\image-20210117103344648.png"></p></li><li><p>查看学习通签到日志</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210117103415.png"></p></li></ul><p><strong>注意：数据库中的数据没10分钟才会同步一次，有时候日志里面没有数据不代表没签上，具体以学习通是否签到为准</strong></p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>至此演示了学习通签到任务的添加流程，网易云也是大同小异，请自己研究一下！！</p>]]></content>
+    
+    
+    <summary type="html">全自动打卡，彻底解放你的双手，让您专注于手头的任务上</summary>
+    
+    
+    
+    <category term="项目" scheme="https://i-fire.top/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="个人项目" scheme="https://i-fire.top/tags/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="我爱签到网" scheme="https://i-fire.top/tags/%E6%88%91%E7%88%B1%E7%AD%BE%E5%88%B0%E7%BD%91/"/>
+    
+  </entry>
   
   <entry>
     <title>警醒</title>
