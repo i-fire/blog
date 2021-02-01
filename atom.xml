@@ -6,7 +6,7 @@
   <link href="https://i-fire.top/atom.xml" rel="self"/>
   
   <link href="https://i-fire.top/"/>
-  <updated>2021-01-17T03:16:11.091Z</updated>
+  <updated>2021-02-01T01:56:05.269Z</updated>
   <id>https://i-fire.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>谷歌浏览器时区问题</title>
+    <link href="https://i-fire.top/post/chrom.html"/>
+    <id>https://i-fire.top/post/chrom.html</id>
+    <published>2021-02-01T01:47:17.000Z</published>
+    <updated>2021-02-01T01:56:05.269Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="解决谷歌浏览器时间不同步问题"><a href="#解决谷歌浏览器时间不同步问题" class="headerlink" title="解决谷歌浏览器时间不同步问题"></a>解决谷歌浏览器时间不同步问题</h1><p>昨天站长在谷歌浏览器测试项目的时候奇怪的发现，前端js同一个时间戳解析出来的时间与我的本地时区相差16个小时（之前在项目中就有疑惑，后台发现用户总是喜欢在凌晨注册，没有引起好奇），我是在东八区（<a href="https://baike.baidu.com/item/UTC">UTC</a>/<a href="https://baike.baidu.com/item/GMT/6026868">GMT</a>+08:00），但是时间戳格式化出来的却是西八区（<a href="https://baike.baidu.com/item/UTC">UTC</a>/<a href="https://baike.baidu.com/item/GMT/6026868">GMT</a>-08:00），我一直以为是js没有设置时区问题（一般来说都会按照本地时区对时间戳进行格式化，基本不会让开发者自己设置），于是我各种百度，找到的解决办法也是五花八门（到此为止我还没有意识到是谷歌浏览器自己出问题，并非是我的电脑问题），然后我才想起来同一个时间戳放到不同的浏览器上去解析一下，验证是不是我的时区问题。嘿！edge，火狐都没有问题，就是谷歌出问题，最后在一个贴吧老哥那里找到的解决办法——-》修改电脑时区</p><h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><ul><li><p>先将自己的时区随便设置一个，这里要先关掉自动设置时区，然后才能自己设置时区</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210201094157.png"></p></li><li><p>接着再将本地的时区改回来，我这里是东八区，于是我在改回东八区，至此问题解决</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210201094338.png"></p></li></ul>]]></content>
+    
+    
+    <summary type="html">谷歌浏览器格式化时间与本地时区相差16小时</summary>
+    
+    
+    
+    <category term="小技巧" scheme="https://i-fire.top/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="chrome" scheme="https://i-fire.top/tags/chrome/"/>
+    
+  </entry>
   
   <entry>
     <title>我爱签到网使用教程</title>
