@@ -84,7 +84,7 @@ var saveToLocal = {
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2021-02-18 16:41:35'
+  postUpdate: '2021-02-19 18:01:32'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -161,7 +161,18 @@ if (asideStatus !== undefined) {
 
   }
 }
-window.addEventListener('load',()=> {preloader.endLoading()})</script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script>(function(){
+window.addEventListener('load',()=> {preloader.endLoading()})</script><div class="js-pjax"><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    $.getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js', function () {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'default',
+      })
+      false && mermaid.init()
+    })
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script>(function(){
   const bp = document.createElement('script');
   const curProtocol = window.location.protocol.split(':')[0];
   if (curProtocol === 'https'){
