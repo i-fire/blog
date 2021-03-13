@@ -6,7 +6,7 @@
   <link href="https://i-fire.top/atom.xml" rel="self"/>
   
   <link href="https://i-fire.top/"/>
-  <updated>2021-03-11T23:49:37.901Z</updated>
+  <updated>2021-03-13T06:56:23.266Z</updated>
   <id>https://i-fire.top/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二叉树</title>
+    <link href="https://i-fire.top/post/binaryTree.html"/>
+    <id>https://i-fire.top/post/binaryTree.html</id>
+    <published>2021-03-13T06:53:29.000Z</published>
+    <updated>2021-03-13T06:56:23.266Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h1><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>二叉树：每个节点至多只能有两个子树（即不存在度大于2的节点），其子树（也称为二叉树）有左右之分且次序不能任意颠倒的树称为二叉树</p><p><strong>二叉树的五种形态</strong></p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210313140247.png"></p><ul><li>（a）：空二叉树</li><li>（b）：只有根节点的二叉树</li><li>（c）：右子树为空的二叉树</li><li>（d）：左右子树均为非空的二叉树</li><li>（e）：左子树为空的二叉树</li></ul><h3 id="完全二叉树-满二叉树"><a href="#完全二叉树-满二叉树" class="headerlink" title="完全二叉树/满二叉树"></a>完全二叉树/满二叉树</h3><ul><li><p>满二叉树定义：如果二叉树中除了叶子节点之外的所有节点的度都为2，则此二叉树称为满二叉树</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210313144534.png"></p></li><li><p>完全二叉树定义：如果二叉树去掉最后一层节点为满二叉树且最后一层的节点从左到右依次分布，则此二叉树称为完全二叉树</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210313144737.png"></p></li></ul><h3 id="二叉树的性质"><a href="#二叉树的性质" class="headerlink" title="二叉树的性质"></a>二叉树的性质</h3><ul><li>在二叉树的第i（i&gt;=1）层上，至多有2<sup>i-1</sup>个节点</li><li>深度为k（k&gt;=1）的二叉树至多有2<sup>k</sup>-1个节点</li><li>对任意一颗二叉树T，如果其叶子节点树为n<sub>0</sub>，度为2的节点数为n<sub>2</sub>，则n<sub>0</sub>=n<sub>2</sub>+1</li><li>具有n个节点的<strong>完全二叉树</strong>的深度为[log<sub>2</sub><sup>n</sup>]+1，[x]表示不大于x的最大整数</li><li>对于一颗有n个节点的<strong>完全二叉树</strong>（其深度为[log<sub>2</sub><sup>n</sup>]+1）的节点按照层序进行遍历（从第1层到第[log<sub>2</sub><sup>n</sup>]+1层，每层从左到右）对任一节点有<ul><li>如果i=1，则节点是二叉树的根，无双亲</li><li>如果i&gt;1则其双亲节点是[i/2]</li><li>如果2i&gt;n，则节点i没有左孩子（节点i为叶子节点），否则其左孩子是节点2i</li><li>如果2i+1&gt;n，则节点i没有右孩子，否则其右孩子是节点2n+1</li></ul></li></ul>]]></content>
+    
+    
+    <summary type="html">树，fire&#39;s blog,数据结构与算法</summary>
+    
+    
+    
+    <category term="数据结构" scheme="https://i-fire.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="数据结构与算法" scheme="https://i-fire.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="树" scheme="https://i-fire.top/tags/%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树</title>
+    <link href="https://i-fire.top/post/tree.html"/>
+    <id>https://i-fire.top/post/tree.html</id>
+    <published>2021-03-13T06:53:29.000Z</published>
+    <updated>2021-03-13T06:55:53.491Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>树是n（n&gt;=0）个节点构成的集合</p><ul><li>当n=0时，称为空树</li><li>在一颗树中<ul><li>有且仅有一个特定的节点称为<strong>根</strong></li><li>当n&gt;1时，其余节点可以分为m（m&gt;0）个互不相交的有限集T<sub>1</sub>,T<sub>2</sub>…..T<sub>m</sub>，其中每一个集合又是一棵树，并且称为根的子树</li></ul></li></ul><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210313080552.png"></p><h3 id="树的表示形式"><a href="#树的表示形式" class="headerlink" title="树的表示形式"></a>树的表示形式</h3><p>（a）嵌套集合表示树：用集合和嵌套的集合表示树，如图 6-2（a）； </p><p>（b）广义表表示树：根作为由子树森林组成的表的名字写在表的左边，如图 6-2（b）； </p><p>（c）凹入法表示树：如图 6-2（c）</p><p><img src="https://cdn.jsdelivr.net/gh/i-fire/blog-pic@main/usr/20210313080853.png"></p><h3 id="树的基本术语"><a href="#树的基本术语" class="headerlink" title="树的基本术语"></a>树的基本术语</h3><ul><li>节点：树的节点包含一个数据元素以及若干指向其子树的分支</li><li>节点的度：节点拥有的子树个数</li><li>树的度：树内各节点的度的最大值</li><li>叶子节点（终端节点）：度为0的节点称为叶子节点或者终端节点，度不为0的称为非终端节点或者分支节点</li><li>节点的孩子，双亲：节点的子树称为节点的孩子，相应的该节点称为孩子的双亲</li><li>兄弟节点：同一双亲的孩子节点直接称为兄弟节点</li><li>树的深度：树中节点的最大层次称为树的深度</li><li>节点的祖先：从根到该节点所经分支上的所有的节点</li><li>节点的子孙：以该节点为根的子树中的任一节点</li><li>结点的堂兄弟：其双亲在同一层的结点互为堂兄弟。</li><li>森林：m（m≥0）棵互不相交的树的集合。</li></ul>]]></content>
+    
+    
+    <summary type="html">树，fire&#39;s blog,数据结构与算法</summary>
+    
+    
+    
+    <category term="数据结构" scheme="https://i-fire.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="数据结构与算法" scheme="https://i-fire.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="树" scheme="https://i-fire.top/tags/%E6%A0%91/"/>
+    
+  </entry>
   
   <entry>
     <title>串的模式匹配算法</title>
